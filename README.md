@@ -4,7 +4,7 @@ A wrapper to WP Nonce in a oriented object way. ;)
 
 ##Usage:
 
-Create Nonce with Expire and Get.
+Create Nonce with Expire and Get the nonce.
 ```php
 use Ludioao\SimpleWpNonce\SimpleWpNonce as SimpleWpNonce;
 $timeToExpire = 3600; // 1h - per default: WP uses 1 day.
