@@ -1,0 +1,10 @@
+<phpunit 
+    bootstrap="vendor/autoload.php" 
+    colors="true">
+  <testsuites>
+    <testsuite name="NonceWp">
+      <directory>tests/</directory>
+      <file>tests/testSimpleWpNonce.php</file>
+    </testsuite>
+  </testsuites>   
+</phpunit>
