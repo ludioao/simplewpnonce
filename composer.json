@@ -1,0 +1,12 @@
+{
+    "name": "ludioao/simplewpnonce",
+    "description": "An oriented object way to use WP nonce resource.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ludio Oliveira",
+            "email": "ludio.ao@gmail.com"
+        }
+    ],
+    "require": {}
+}
