@@ -7,7 +7,7 @@ A wrapper to WP Nonce in a oriented object way. ;)
 Create Nonce with Expire and Get the nonce.
 ```php
 use Ludioao\SimpleWpNonce\SimpleWpNonce as SimpleWpNonce;
-$timeToExpire = 3600; // 1h - per default: WP uses 1 day.
+$timeToExpire = 3600; // 1h - by default: WP uses 1 day.
 $simpleNonce = new SimpleWpNonce('testing_job', $timeToExpire); 
 $nonce = $simpleNonce->createNonce();
 ```
